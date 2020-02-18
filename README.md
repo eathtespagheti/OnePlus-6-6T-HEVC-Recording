@@ -4,7 +4,7 @@ This module enable HEVC/H265 video recording on OnePlus 6 and OnePlus 6T, instal
 
 ## Bitrate reduction table
 
-Since the average bitrate reduction it's about 59%, I'm planning on releasing another version of the module with a 50% bitrate value
+Since the average bitrate reduction it's about 59%, [here](https://gitlab.com/forks4/oneplus-6-6t-hevc-recording) you can find a fork with the bitrate reduced by 50%
 
 | Codec | 480p | 720p | 1080p | 2160p|
 |:-----:|:----:|:----:|:-----:|:----:|
