@@ -9,4 +9,5 @@ Since the average bitrate reduction it's about 59%, I'm planning on releasing an
 | Codec | 480p | 720p | 1080p | 2160p|
 |:-----:|:----:|:----:|:-----:|:----:|
 | HEVC  | 52%  | 56%  | 62%   | 64%  |
-<sub>Source [Wikipedia](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding#Coding_efficiency)</sub>
+
+<sup>Source [Wikipedia](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding#Coding_efficiency)</sup>
