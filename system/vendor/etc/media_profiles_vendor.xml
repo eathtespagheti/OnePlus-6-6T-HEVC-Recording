@@ -96,7 +96,7 @@
     <CamcorderProfiles cameraId="0">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -122,7 +122,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -135,7 +135,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="cif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -148,7 +148,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="720"
              height="480"
@@ -161,7 +161,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -239,7 +239,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qcif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -252,7 +252,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="vga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -265,7 +265,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -293,7 +293,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -307,7 +307,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsecif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -322,7 +322,7 @@
 
 
     <EncoderProfile quality="timelapseqvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -336,7 +336,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsevga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -350,7 +350,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -364,7 +364,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -460,7 +460,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
-        <Video codec="h264"
+        <Video codec="hevc"
                bitRate="24000000"
                width="1280"
                height="720"
@@ -487,7 +487,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeed720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="24000000"
              width="1280"
              height="720"
@@ -510,7 +510,7 @@
     <CamcorderProfiles cameraId="1">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -536,7 +536,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -549,7 +549,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="cif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -562,7 +562,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="720"
              height="480"
@@ -575,7 +575,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -640,7 +640,7 @@
     </EncoderProfile>
 <!-- #ifdef VENDOR_EDIT wangbuqing@media ,20190721 ,[EIDQ-1970] remove this as front camera can not config  -->
     <!-- <EncoderProfile quality="2160p" fileFormat="mp4" duration="30"> -->
-      <!-- <Video codec="h264" -->
+      <!-- <Video codec="hevc" -->
              <!-- bitRate="42000000" -->
              <!-- width="3840" -->
              <!-- height="2160" -->
@@ -652,7 +652,7 @@
     <!-- </EncoderProfile> -->
 <!-- #endif -->
     <EncoderProfile quality="qcif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -665,7 +665,7 @@
     </EncoderProfile>
 
      <EncoderProfile quality="vga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -679,7 +679,7 @@
 
     <!-- TIMELAPSE profiles for front camera -->
     <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -707,7 +707,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -721,7 +721,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsecif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="1200000"
              width="352"
              height="288"
@@ -735,7 +735,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapseqvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -749,7 +749,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsevga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -763,7 +763,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="5000000"
              width="720"
              height="480"
@@ -777,7 +777,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="8000000"
              width="1280"
              height="720"
@@ -855,7 +855,7 @@
     <CamcorderProfiles cameraId="2">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -881,7 +881,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -894,7 +894,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="cif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -907,7 +907,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="720"
              height="480"
@@ -920,7 +920,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -998,7 +998,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qcif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1011,7 +1011,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="vga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -1024,7 +1024,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1052,7 +1052,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1066,7 +1066,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsecif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -1081,7 +1081,7 @@
 
 
     <EncoderProfile quality="timelapseqvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -1095,7 +1095,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsevga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -1109,7 +1109,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -1123,7 +1123,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -1219,7 +1219,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
-        <Video codec="h264"
+        <Video codec="hevc"
                bitRate="12000000"
                width="640"
                height="480"
@@ -1246,7 +1246,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeed720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="24000000"
              width="1280"
              height="720"
@@ -1260,7 +1260,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeed480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="12000000"
              width="640"
              height="480"
@@ -1282,7 +1282,7 @@
     <CamcorderProfiles cameraId="3">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1308,7 +1308,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -1321,7 +1321,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="cif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -1334,7 +1334,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="720"
              height="480"
@@ -1347,7 +1347,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -1425,7 +1425,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qcif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1438,7 +1438,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="vga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -1451,7 +1451,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1479,7 +1479,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1493,7 +1493,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsecif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -1508,7 +1508,7 @@
 
 
     <EncoderProfile quality="timelapseqvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -1522,7 +1522,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsevga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -1536,7 +1536,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -1550,7 +1550,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -1646,7 +1646,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
-        <Video codec="h264"
+        <Video codec="hevc"
                bitRate="12000000"
                width="640"
                height="480"
@@ -1673,7 +1673,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeed720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="24000000"
              width="1280"
              height="720"
@@ -1687,7 +1687,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeed480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="12000000"
              width="640"
              height="480"
@@ -1709,7 +1709,7 @@
     <CamcorderProfiles cameraId="4">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1735,7 +1735,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -1748,7 +1748,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="cif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -1761,7 +1761,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="720"
              height="480"
@@ -1774,7 +1774,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -1852,7 +1852,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qcif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1865,7 +1865,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="vga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -1878,7 +1878,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1906,7 +1906,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -1920,7 +1920,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsecif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -1935,7 +1935,7 @@
 
 
     <EncoderProfile quality="timelapseqvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -1949,7 +1949,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsevga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -1963,7 +1963,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -1977,7 +1977,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -2073,7 +2073,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
-        <Video codec="h264"
+        <Video codec="hevc"
                bitRate="12000000"
                width="640"
                height="480"
@@ -2100,7 +2100,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeed720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="24000000"
              width="1280"
              height="720"
@@ -2114,7 +2114,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeed480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="12000000"
              width="640"
              height="480"
@@ -2136,7 +2136,7 @@
     <CamcorderProfiles cameraId="5">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -2162,7 +2162,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -2175,7 +2175,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="cif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -2188,7 +2188,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="720"
              height="480"
@@ -2201,7 +2201,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -2279,7 +2279,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="qcif" fileFormat="3gp" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -2292,7 +2292,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="vga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -2305,7 +2305,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -2333,7 +2333,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="192000"
              width="176"
              height="144"
@@ -2347,7 +2347,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsecif" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="720000"
              width="352"
              height="288"
@@ -2362,7 +2362,7 @@
 
 
     <EncoderProfile quality="timelapseqvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="512000"
              width="320"
              height="240"
@@ -2376,7 +2376,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapsevga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -2390,7 +2390,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="2000000"
              width="640"
              height="480"
@@ -2404,7 +2404,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="14000000"
              width="1280"
              height="720"
@@ -2500,7 +2500,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
-        <Video codec="h264"
+        <Video codec="hevc"
                bitRate="12000000"
                width="640"
                height="480"
@@ -2527,7 +2527,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeed720p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="24000000"
              width="1280"
              height="720"
@@ -2541,7 +2541,7 @@
     </EncoderProfile>
 
     <EncoderProfile quality="highspeed480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
+      <Video codec="hevc"
              bitRate="12000000"
              width="640"
              height="480"
