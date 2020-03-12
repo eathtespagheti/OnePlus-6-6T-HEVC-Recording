@@ -1,0 +1,12 @@
+v0.3
+- Change the audio bitrate from 96 kb/s to 192 kb/s
+- Change audio codec from HEAAC to AAC (ha better audio quality for bitrate major than 128 kb/s)
+
+v0.2
+- Add HEVC support for all configurations previously used with H264
+- Add HE-AAC support in HEVC encoded profiles
+- Remove config files that doesn't affect the mod result
+- Update HEVC encoder configuration to match the same limits has H264
+
+v0.1
+- Initial release
