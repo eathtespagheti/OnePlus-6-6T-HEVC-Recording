@@ -1,6 +1,6 @@
 id=oneplus-6-6t-hevc-recording
 name=OnePlus 6-6T HEVC Recording
-version=v0.2.1
-versionCode=3
+version=v0.3
+versionCode=4
 author=Fabio Sussarellu @eathtespagheti
 description=Enable HEVC video recording on OnePlus 6/6T
